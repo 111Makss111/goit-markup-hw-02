@@ -38,10 +38,10 @@ ul{
     letter-spacing: 0.02em;
 }
 .header-list-link:hover{
-    color: #404BBF;
+    color: #404bbf;
 }
 .header-list-link:focus{
-    color: #404BBF;
+    color: #404bbf;
 }
     
 .header-contacts{
@@ -75,8 +75,9 @@ ul{
     
 }
 .solutions-btn {
+    background-color: #4D5AE5;
     color: var(--WHITE, #FFF);
-   font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -84,10 +85,10 @@ ul{
     cursor: pointer;
 }
 .solutions-btn:hover{
-background-color: #404BBF;
+    background-color: #404BBF;
 }
 .solutions-btn:focus{
-background-color: #404BBF;
+    background-color: #404BBF;
 }
     /* <!------------ Projects-------------> */
 .visually-hidden{
@@ -128,7 +129,7 @@ background-color: #404BBF;
     text-transform: capitalize;
 }
 .team-menu-list {
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
 }
 .team-list {
 }

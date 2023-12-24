@@ -1,5 +1,6 @@
 body{
-    font-family: 'Roboto','Raleway', sans-serif ;
+    font-family: 'Roboto', sans-serif ;
+    background-color: #ffffff;
 }
 a{
     text-decoration: none;
@@ -10,12 +11,6 @@ ul{
     /* <!------------ Header-------------> */
 .header-logo-blue{
     color: var(--IRIS, #4D5AE5);
-    font-family: Raleway;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.17; 
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
 }
 .header {
 }
@@ -23,7 +18,7 @@ ul{
 }
 .header-logo {
     color: var(--NAVY-BLUE, #2E2F42);
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
@@ -36,16 +31,20 @@ ul{
 }
 .header-list-link {
     color: var(--NAVY-BLUE, #2E2F42);
-    
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.header-list-link:hover,:active{
+.header-list-link:hover{
     color: #404BBF;
 }
+.header-list-link:active{
+    color: #404BBF;
+}
+    
 .header-contacts {
+     font-style: normal;
 }
 .header-contact-item {
 }
@@ -63,6 +62,7 @@ ul{
 .main {
 }
 .solutions {
+    background-color: #2e2f42;
 }
 .solutions-title {
     color: var(--WHITE, #FFF);
@@ -70,15 +70,12 @@ ul{
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
-    letter-spacing: 1.02em;
+    letter-spacing: 0.02em;
     
 }
 .solutions-btn {
-    border-radius: 4px;
-    background: var(--IRIS, #4D5AE5);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     color: var(--WHITE, #FFF);
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif ;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -179,10 +176,11 @@ ul{
 }
 /* <!------------ footer-------------> */
 .footer {
+    background-color: #2e2f42;
 }
 .footer-link {
-    color: var(--CLOUD, #F4F4FD);
-    font-family: Raleway;
+    color:  #F4F4FD;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
@@ -190,7 +188,7 @@ ul{
     text-transform: uppercase;
 }
 .footer-blue {
-    color: var(--IRIS, #4D5AE5);
+    color: var(--IRIS, #4d5ae5);
 }
 .footer-text {
     color: var(--CLOUD, #F4F4FD);

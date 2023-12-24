@@ -37,10 +37,10 @@ ul{
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.header-list-link:hover{
+.header-list-link:hover {
     color: #404bbf;
 }
-.header-list-link:focus{
+.header-list-link:focus {
     color: #404bbf;
 }
     
@@ -57,6 +57,12 @@ ul{
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+.header-contacts-link:hover{
+    color: #404bbf;
+}
+.header-contacts-link:focus{
+    color: #404bbf;
 }
     /* <!------------ solutions-------------> */
 
@@ -132,6 +138,7 @@ ul{
     background-color: #FFFFFF;
 }
 .team-list {
+    background-color: #FFFFFF;
 }
 .team-item-text {
     color: var(--NAVY-BLUE, #2E2F42);

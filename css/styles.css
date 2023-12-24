@@ -1,6 +1,7 @@
 body{
-    font-family: 'Roboto', sans-serif ;
-    background-color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    background-color: #FFFFFF;
+    color: #434455;
 }
 a{
     text-decoration: none;
@@ -10,14 +11,14 @@ ul{
 }
     /* <!------------ Header-------------> */
 .header-logo-blue{
-    color: var(--IRIS, #4D5AE5);
+    color: #2e2f42;
 }
 .header {
 }
 .header-navigation {
 }
 .header-logo {
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: #4d5ae5;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -39,11 +40,11 @@ ul{
 .header-list-link:hover{
     color: #404BBF;
 }
-.header-list-link:active{
+.header-list-link:focus{
     color: #404BBF;
 }
     
-.header-contacts {
+.header-contacts{
      font-style: normal;
 }
 .header-contact-item {
@@ -75,21 +76,22 @@ ul{
 }
 .solutions-btn {
     color: var(--WHITE, #FFF);
-    font-family: 'Roboto', sans-serif ;
+   font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
 }
+.solutions-btn:hover{
+background-color: #404BBF;
+}
+.solutions-btn:focus{
+background-color: #404BBF;
+}
     /* <!------------ Projects-------------> */
 .visually-hidden{
-    position: absolute !important;
-    clip: rect(1px, 1px, 1px, 1px);
-    overflow: hidden;
-    height: 1px;
-    width: 1px;
-    word-wrap: normal;
+
     
 }
 .projects {
@@ -114,6 +116,7 @@ ul{
 }
     /* <!------------ team-------------> */
 .team {
+    background-color: #F4F4FD;
 }
 .team-title {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -125,6 +128,7 @@ ul{
     text-transform: capitalize;
 }
 .team-menu-list {
+    background-color: #FFFFFF
 }
 .team-list {
 }
@@ -176,10 +180,10 @@ ul{
 }
 /* <!------------ footer-------------> */
 .footer {
-    background-color: #2e2f42;
+    background-color:  #2e2f42;
 }
 .footer-link {
-    color:  #F4F4FD;
+    color:   #4d5ae5;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -188,7 +192,7 @@ ul{
     text-transform: uppercase;
 }
 .footer-blue {
-    color: var(--IRIS, #4d5ae5);
+    color: #f4f4fd;
 }
 .footer-text {
     color: var(--CLOUD, #F4F4FD);
